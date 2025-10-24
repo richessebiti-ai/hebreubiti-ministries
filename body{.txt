@@ -1,0 +1,36 @@
+body {
+ front-familly: "poppins", sans-recif;
+margin: 0;
+padding: 0;
+background-color: #ffffff
+color: #222;
+}
+.hero {
+ background-color: #003366;
+ color: white;
+ text-allign: center;
+ padding: 100px 20px;
+}
+.section {
+ padding: 60px 10%;
+ text-allign: center;
+}
+.blue-bg {
+background-color: #f0f6ff;
+}
+footer {
+ background-color: #003366;
+ color: white;
+ text-allign: center;
+ padding: 15px;
+ margin-top:40px;
+}
+.logo {
+font-size: 2rem;
+font-weight: 700;
+animation: fadeInDown 2s ease;
+}
+@keyframes fadeInDown {
+ from {opacity: 0; transform:translateY (-30px);}
+ to {opcity: 1; transform:translateY(O);}
+}
